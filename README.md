@@ -130,7 +130,8 @@
 <details>
 <summary> Скриншот(-ы) </summary>
 
-![25_install_zabbix_agent](https://github.com/lantsevrot/Diplom/blob/main/img/zabbix-agent.png)
+![25_install_zabbix_agent](https://github.com/chichnikita/test/blob/main/img/zabbix_agent_1.png)
+![25_install_zabbix_agent](https://github.com/chichnikita/test/blob/main/img/zabbix_agent_2.png)
 
 </details>
 
@@ -139,20 +140,20 @@
   - добавляет репозиторий zabbix
   - устанавливает на хост zabbix -  zabbix server, zabbix agent, mysql, nginx
   - создает базу данных, пользователя, задает пароль
-**[Админка zabbix-server](http://178.154.223.6:8080)**
+**[Админка zabbix-server](http://89.169.144.127:8080)**
 
 <details>
 <summary> Скриншот(-ы) </summary>
 
-![24_install_zabbix_server](https://github.com/lantsevrot/Diplom/blob/main/img/Ansible_Playbook_Zabbix-server_1.png)
+![24_install_zabbix_server](https://github.com/chichnikita/test/blob/main/img/zabbix_server_1.png)
 
-![26_ installzabbix_server](https://github.com/lantsevrot/Diplom/blob/main/img/Ansible_Playbook_Zabbix-server_2.png)
+![26_ installzabbix_server](https://github.com/chichnikita/test/blob/main/img/zabbix_server_2.png)
 
-![27_ installzabbix_server](https://github.com/lantsevrot/Diplom/blob/main/img/zabbix.png)
+![27_ installzabbix_server](https://github.com/chichnikita/test/blob/main/img/zabbix.png)
 
 ### Настраиваем дешборды с отображением метрик, минимальный набор — по принципу USE (Utilization, Saturation, Errors) для CPU, RAM, диски, сеть, http запросов к веб-серверам.
 
-![27_ installzabbix_server](https://github.com/lantsevrot/Diplom/blob/main/img/zabbix2.png)
+![27_ installzabbix_server](https://github.com/chichnikita/test/blob/main/img/zabbix1.png)
 
 </details>
 
