@@ -3,7 +3,7 @@
 
 Ключевая задача — разработать отказоустойчивую инфраструктуру для сайта, включающую мониторинг, сбор логов и резервное копирование основных данных. Инфраструктура должна размещаться в Yandex Cloud и отвечать минимальным стандартам безопасности.
 
-[Информация по подключениям к серверам](https://github.com/lantsevrot/Diplom/blob/main/Данные%20по%20подключениям.md)
+[Информация по подключениям к серверам](https://github.com/chichnikita/test/blob/main/Данные%20по%20подключениям.md)
 
 ### 1\. Для выполнения задания был написан манифест terraform [main.tf](https://github.com/lantsevrot/Diplom/blob/main/terraform/main.tf), котрый созает следующие ресурсы:
 
@@ -60,7 +60,7 @@
 
 #### 2.1 Установка и настройка производилась через установленный на bastion host Ansible по ssh 
 
-**[файл host inventory](https://github.com/lantsevrot/Diplom/blob/main/ansible/hosts)**   *************************************
+**[файл host inventory](https://github.com/chichnikita/test/blob/main/ansible/hosts)**  
 
 <details>
 <summary> Скриншот(-ы) </summary>
@@ -72,13 +72,13 @@
 
 ####  2.2 Установка Elasticsearch и Kibana 
 
-**[elasticsearch_playbook.yaml](https://github.com/lantsevrot/Diplom/blob/main/ansible/elastik_playbook.yaml)**
+**[elasticsearch_playbook.yaml](https://github.com/chichnikita/test/blob/main/ansible/elastik_playbook.yaml)**
 
 * скачивает elasticsearch deb
 * устанавливает elasticsearch
 * корректирует конфигурационный файл
 
-**[kibana_playbook.yaml](https://github.com/lantsevrot/Diplom/blob/main/ansible/kibana_playbook.yaml)**
+**[kibana_playbook.yaml](https://github.com/chichnikita/test/blob/main/ansible/kibana_playbook.yaml)**
 
 * устанавливает kibana
 * корректирует конфигурационный файл
@@ -93,7 +93,7 @@
 ![28_ install](https://github.com/chichnikita/test/blob/main/img/kibana2.png) 
  *</details>
 
-####  2.3 Установка NGINX на web сервера [nginx-playbook.yaml](https://github.com/RaffaelX/sys-gitlab-hw/blob/main/_diplom/ansible/nginx-playbook.yaml), [main.yml](https://github.com/RaffaelX/sys-gitlab-hw/blob/main/_diplom/ansible/nginx/tasks/main.yml)
+####  2.3 Установка NGINX на web сервера [nginx-playbook.yaml](https://github.com/chichnikita/test/blob/main/ansible/nginx-playbook.yaml), [main.yml](https://github.com/chichnikita/test/blob/main/ansible/roles/nginx/tasks/main.yml)
 
 * устанавливает nginx на ВМ linux-nginx-1, linux-nginx-2
 * устанавливает начальную страницу сайта по шаблону j2, доступ через балансировщик **[ссылка](http://89.169.145.0:80)**
@@ -109,7 +109,7 @@
 
 </details>
 
-#### 2.4 Установка filebeat на web сервера для сбора логов NGINX [filebeat_playbook.yaml](https://github.com/lantsevrot/Diplom/blob/main/ansible/filebeat_playbook.yaml)
+#### 2.4 Установка filebeat на web сервера для сбора логов NGINX [filebeat_playbook.yaml](https://github.com/chichnikita/test/blob/main/ansible/filebeat_playbook.yaml)
 
 * скачивает filebeat deb
 * устанавливает filebeat на сервера web-server-nginx-2 and web-server-nginx-1
@@ -121,7 +121,7 @@
 
 </details>
 
-#### 2.5 Установка zabbix-agent на ВМ [zabbix_agent_playbook.yaml](https://github.com/lantsevrot/Diplom/blob/main/ansible/zabbix_agent_playbook.yaml), [main.yml](https://github.com/lantsevrot/Diplom/blob/main/ansible/roles/zabbix-agent/tasks/main.yml)
+#### 2.5 Установка zabbix-agent на ВМ [zabbix_agent_playbook.yaml](https://github.com/chichnikita/test/blob/main/ansible/zabbix_agent_playbook.yaml), [main.yml](https://github.com/chichnikita/test/blob/main/ansible/roles/zabbix-agent/tasks/main.yml)
   - добавляет репозиторий zabbix
   - устанавливает zabbix agent на все хосты
   - вносит корректировку в файл конфигурации  
@@ -135,7 +135,7 @@
 
 </details>
 
-#### 2.6 Установка zabbix-server [zabbix_server_playbook.yaml](https://github.com/lantsevrot/Diplom/blob/main/ansible/zabbix_server_playbook.yaml), [main.yml](https://github.com/lantsevrot/Diplom/blob/main/ansible/roles/zabbix-server/tasks/main.yml)
+#### 2.6 Установка zabbix-server [zabbix_server_playbook.yaml](https://github.com/chichnikita/test/blob/main/ansible/zabbix_server_playbook.yaml), [main.yml](https://github.com/chichnikita/test/blob/main/ansible/roles/zabbix-server/tasks/main.yml)
   
   - добавляет репозиторий zabbix
   - устанавливает на хост zabbix -  zabbix server, zabbix agent, mysql, nginx
