@@ -1,0 +1,14 @@
+#cloud-config
+users:
+  - name: netology
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDRif0d1cm1W0ciXqx1+odBXa6RBLs6v2W0G0FVOhJEWjR7s1dxIEVbTS5KrViGISrXoZlRDgCp9GoYmlHl8JJhjoK3smw3IVaqalksmkbeHnlEJ/LV7cPdaAlsAFalGlb9vH3AbAQObLz19oG4dEBTZxOF44wApxii2asA26pERbDy5w29gxGMRORujW+6KQvTefHUs/L4DE3wOImQA6t77GlF98FFaNwqNHs+ezVZz+IFMCLJH0Tvv5I2z+LUql9rGF2r3R/xl/MaU88COr3++n/9PHCg5Ja4vdjGfL52LvbE/ssenMf/H0nydMtDsc304J8YVvtmLZToqHc5YO9VNwiCnh5ySZYWWxoduWItviFkmLeY3VL7htYDoflUVVfWOxWYo322jJ46LWQZ+LtsbsuTvTEHm1oRTYRuhnl+L1twIyH5vjkn1ffaWhlfsFrJIqHXYo6KASdOU/LYrRCa2xlKchvjjZoq9Vtc5jMEnG39P11Rk8aZW2eFL0/RU0t1M5MXbbpIrsS3PzWJr2UW02xbuAUnKNUT1B1HVDB5QOvaRY26Kw6mYb1uXZK1W2+gxf9LnlFofdxTY9VWToKmORi3DKqtg3M95CyNEL87oEFmxFAWaOzw/9F3hPc4ka+usSF0VU89XUhtAO0Rc6B0wqr1XqRhFSoE0eYzMdC7Tw== root@zabbix-server
+disable_root: true
+timezone: Europe/Moscow
+repo_update: true
+repo_upgrade: true
+apt:
+  preserve_sources_list: true
