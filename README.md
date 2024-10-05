@@ -5,7 +5,7 @@
 
 [Информация по подключениям к серверам](https://github.com/chichnikita/test/blob/main/Данные%20по%20подключениям.md)
 
-### 1\. Для выполнения задания был написан манифест terraform [main.tf](https://github.com/lantsevrot/Diplom/blob/main/terraform/main.tf), котрый созает следующие ресурсы:
+### 1\. Для выполнения задания был написан манифест terraform [main.tf](https://github.com/chichnikita/test/blob/main/terraform/main.tf), котрый созает следующие ресурсы:
 
 #### 1.1 Виртуальные машины.
 
