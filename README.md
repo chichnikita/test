@@ -19,7 +19,7 @@
 <details>
 <summary> Скриншот(-ы) </summary>
 
-![01_vm](https://github.com/lantsevrot/Diplom/blob/main/img/yandexcloud.png)
+![01_vm](https://github.com/chichnikita/test/blob/main/img/VM_Cloud.png)
 
 </details>
 
@@ -28,12 +28,12 @@
 
 #### 1.2 Группы безопасности соответствующих сервисов на входящий трафик только к нужным портам
 
-![09_20SG](https://github.com/lantsevrot/Diplom/blob/main/img/uu.png)
+![09_20SG](https://github.com/chichnikita/test/blob/main/img/группы_безопасности.png)
 
 <details>
 <summary> Скриншот(-ы) </summary>
 
-![09_20SG](https://github.com/lantsevrot/Diplom/blob/main/img/fdfd5.png)
+![09_20SG](https://github.com/chichnikita/test/blob/main/img/группы_безопасности_1.png)
 
 </details>
 
@@ -42,17 +42,17 @@
 <details>
 <summary> Скриншот(-ы) </summary>
 
-![02_target-group](https://github.com/lantsevrot/Diplom/blob/main/img/tg1.png)
+![02_target-group](https://github.com/chichnikita/test/blob/main/img/целевые_группы.png)
 
-![03_backend-group](https://github.com/lantsevrot/Diplom/blob/main/img/bg1.png)
+![03_backend-group](https://github.com/chichnikita/test/blob/main/img/группы_бэкендов.png)
 
-![7](https://github.com/lantsevrot/Diplom/blob/main/img/alb1.png)
+![7](https://github.com/chichnikita/test/blob/main/img/карта_балансировки.png)
 
-![7](https://github.com/lantsevrot/Diplom/blob/main/img/alb11.png)
+![7](https://github.com/chichnikita/test/blob/main/img/балансировщик.png)
 
-![7](https://github.com/lantsevrot/Diplom/blob/main/img/w.png)
+![7](https://github.com/chichnikita/test/blob/main/img/целевые_группы_1.png)
 
-![7](https://github.com/lantsevrot/Diplom/blob/main/img/bl.png)
+![7](https://github.com/chichnikita/test/blob/main/img/балансировщик_1.png)
 
 </details>
 
@@ -60,12 +60,12 @@
 
 #### 2.1 Установка и настройка производилась через установленный на bastion host Ansible по ssh 
 
-**[файл host inventory](https://github.com/lantsevrot/Diplom/blob/main/ansible/hosts)**
+**[файл host inventory](https://github.com/lantsevrot/Diplom/blob/main/ansible/hosts)**   *************************************
 
 <details>
 <summary> Скриншот(-ы) </summary>
 
-![00_Bastion-host](https://github.com/lantsevrot/Diplom/blob/main/img/hosts.png)
+![00_Bastion-host](https://github.com/chichnikita/test/blob/main/img/ansible_ping.png)
 
 </details>
 
@@ -87,25 +87,25 @@
 <details>
 <summary> Скриншот(-ы) </summary>
 
-![28_ install](https://github.com/lantsevrot/Diplom/blob/main/img/kibana.png)
-![28_ install](https://github.com/lantsevrot/Diplom/blob/main/img/elastic.png)
-![28_ install](https://github.com/lantsevrot/Diplom/blob/main/img/filebeat111.png)
-![28_ install](https://github.com/lantsevrot/Diplom/blob/main/img/filebeat222.png)
-</details>
+![28_ install](https://github.com/chichnikita/test/blob/main/img/kibana.png)
+![28_ install](https://github.com/chichnikita/test/blob/main/img/elast.png)
+![28_ install](https://github.com/lantsevrot/Diplom/blob/main/img/filebeat111.png) *************************************
+![28_ install](https://github.com/lantsevrot/Diplom/blob/main/img/filebeat222.png) *************************************
+ *</details>
 
 ####  2.3 Установка NGINX на web сервера [nginx-playbook.yaml](https://github.com/RaffaelX/sys-gitlab-hw/blob/main/_diplom/ansible/nginx-playbook.yaml), [main.yml](https://github.com/RaffaelX/sys-gitlab-hw/blob/main/_diplom/ansible/nginx/tasks/main.yml)
 
 * устанавливает nginx на ВМ linux-nginx-1, linux-nginx-2
-* устанавливает начальную страницу сайта по шаблону j2, доступ через балансировщик **[ссылка](http://158.160.62.31:80)**
+* устанавливает начальную страницу сайта по шаблону j2, доступ через балансировщик **[ссылка](http://89.169.145.0:80)**
 
 <details>
 <summary> Скриншот(-ы) </summary>
 
-![21_ install_nginx](https://github.com/lantsevrot/Diplom/blob/main/img/nginx_playbook22.png)
+![21_ install_nginx](https://github.com/chichnikita/test/blob/main/img/nginx_1.png)
 
-![22_ install_nginx](https://github.com/lantsevrot/Diplom/blob/main/img/nginx_playbook3.png)
+![22_ install_nginx](https://github.com/chichnikita/test/blob/main/img/nginx_2.png)
 
-![23_ install_nginx](https://github.com/lantsevrot/Diplom/blob/main/img/nginx_playbook4.png)
+![23_ install_nginx](https://github.com/chichnikita/test/blob/main/img/nginx_3.png)
 
 </details>
 
@@ -117,7 +117,7 @@
 <details>
 <summary> Скриншот(-ы) </summary>
 
-![28_20](https://github.com/lantsevrot/Diplom/blob/main/img/filebeat.png)
+![28_20](https://github.com/chichnikita/test/blob/main/img/filebeat.png)
 
 </details>
 
@@ -162,7 +162,7 @@
 <details>
 <summary> Скриншот(-ы) </summary>
 
-![99_Snapshot_1](https://github.com/lantsevrot/Diplom/blob/main/img/snapshot.png)
+![99_Snapshot_1](https://github.com/chichnikita/test/blob/main/img/снимок.png)
 
 
 </details>
