@@ -89,8 +89,8 @@
 
 ![28_ install](https://github.com/chichnikita/test/blob/main/img/kibana.png)
 ![28_ install](https://github.com/chichnikita/test/blob/main/img/elast.png)
-![28_ install](https://github.com/lantsevrot/Diplom/blob/main/img/filebeat111.png) *************************************
-![28_ install](https://github.com/lantsevrot/Diplom/blob/main/img/filebeat222.png) *************************************
+![28_ install](https://github.com/chichnikita/test/blob/main/img/kibana1.png) 
+![28_ install](https://github.com/chichnikita/test/blob/main/img/kibana2.png) 
  *</details>
 
 ####  2.3 Установка NGINX на web сервера [nginx-playbook.yaml](https://github.com/RaffaelX/sys-gitlab-hw/blob/main/_diplom/ansible/nginx-playbook.yaml), [main.yml](https://github.com/RaffaelX/sys-gitlab-hw/blob/main/_diplom/ansible/nginx/tasks/main.yml)
